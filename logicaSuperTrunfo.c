@@ -51,7 +51,7 @@ int main() {
     printf("%s: %.2f hab/km²\n", nome_da_cidade1, densidade1);
     printf("%s: %.2f hab/km²\n", nome_da_cidade2, densidade2);
 
-    // Determinar vencedora (maior densidade perde)
+    // Determinar vencedor (maior densidade perde)
     if(densidade1 > densidade2) {
         printf("A cidade vencedora é: %s\n", nome_da_cidade2);
     } else if(densidade2 > densidade1) {
